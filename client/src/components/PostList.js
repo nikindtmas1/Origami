@@ -17,7 +17,7 @@ const PostList = () => {
     return (
         <>
         <ul>
-            {homes.map(x => <PostItem color='blue'>{x.post}</PostItem>)}
+            {homes.map(x => <PostItem color='blue' key={x._id}>{x.post}</PostItem>)}
         </ul>
         </>
     );
