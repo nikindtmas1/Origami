@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
     try {
         let results = await homeService.getAll();
 
-        res.send(results);//
+        res.json(results);//
 
     } catch (error) {
         console.log(error);
