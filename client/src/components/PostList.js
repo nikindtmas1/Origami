@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import PostItem from './PostItem';
 
-const API_URL = 'http://localhost:5000/origami';
+const API_URL = 'http://localhost:5000/';
 
 
 const PostList = () => {
@@ -9,7 +9,7 @@ const PostList = () => {
     const [homes, setPosts] = useState([]);
 
     useEffect(() => {
-        fetch(`${API_URL}/homes`)
+        fetch(`${API_URL}`)
         .then(res => res.json())
         .then(result => setPosts(result))
     });
