@@ -2,14 +2,16 @@
 import './App.css';
 import Hello from './components/Hello';
 import PostList from './components/PostList';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Hello />
+       
       </header>
-
+      
       <main>
         <PostList />
       </main>
