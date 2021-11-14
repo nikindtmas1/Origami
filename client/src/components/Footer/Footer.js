@@ -38,8 +38,9 @@ const Footer = () => {
                 </li>
                 <li className={style.listItem}>
                     <a href="#">Going to 11</a>
+                <img src="blue-origami-bird-flipped.png" alt="blue-origami-bird" />
+
                 </li>
-                <li className={style.listItem}><im src="blue-origami-bird-flipped.png" alt="blue-origami-bird"></im></li>
             </ul>
             <p>Software university &copy; 2019</p>
         </footer>
