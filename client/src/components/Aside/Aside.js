@@ -5,7 +5,6 @@ const Aside = () => {
     return (
         <aside className={style.aside}>
              <ul>
-              <li className={style.listItem}><img src="white-origami-bird.png" alt="white-origami" /></li>
                 <li className={style.listItem}>
                     <a href="#">Going to 1</a>
                 </li>

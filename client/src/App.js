@@ -14,14 +14,14 @@ function App() {
      
         <Navigation />
         <Aside />
-        <main>
+
+        {/* <main>
+        </main> */}
         {/* <PostList /> */}
-        </main>
         <Footer />
     {/* <footer>
     <p>All rights reserved &copy;</p>
     </footer> */}
-
     </div>
   );
 }
